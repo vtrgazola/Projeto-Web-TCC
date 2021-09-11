@@ -11,7 +11,7 @@
                     <v-col cols="12" md="8">
                       <v-card-text class="mt-12">
                         <h1
-                          class="text-center display-2 teal--text text--accent-3"
+                          class="text-center display-2 blue--text text--accent-3"
                         >Faça Seu Login</h1><br>
                       
                         <v-form>
@@ -20,7 +20,7 @@
                             name="Email"
                             prepend-icon="email"
                             type="text"
-                            color="teal accent-3"
+                            color="blue accent-3"
                           />
 
                           <v-text-field
@@ -29,17 +29,17 @@
                             name="password"
                             prepend-icon="lock"
                             type="password"
-                            color="teal accent-3"
+                            color="blue accent-3"
                           />
                         </v-form>
                         <h3 class="text-center mt-4">Esqueceu sua senha ?</h3>
                       </v-card-text>
                       <div class="text-center mt-3">
-                        <v-btn rounded color="teal accent-3" dark>ENTRAR</v-btn>
+                        <v-btn rounded color="blue accent-3" dark>ENTRAR</v-btn>
                       </div>
                       <br>
                     </v-col>
-                    <v-col cols="12" md="4" class="teal accent-3">
+                    <v-col cols="12" md="4" class="blue accent-3">
                       <v-card-text class="white--text mt-12">
                         <h1 class="text-center display-1">Olá, Amigo!</h1>
                         <h5
@@ -54,7 +54,7 @@
                 </v-window-item>
                 <v-window-item :value="2">
                   <v-row class="fill-height">
-                    <v-col cols="12" md="4" class="teal accent-3">
+                    <v-col cols="12" md="4" class="blue accent-3">
                       <v-card-text class="white--text mt-12">
                         <h1 class="text-center display-1">Bem vindo!</h1>
                         <h5
@@ -68,7 +68,7 @@
 
                     <v-col cols="12" md="8">
                       <v-card-text class="mt-12">
-                        <h1 class="text-center display-2 teal--text text--accent-3">Criar Conta</h1>
+                        <h1 class="text-center display-2 blue--text text--accent-3">Criar Conta</h1>
                         
                         <h4 class="text-center mt-4">Informe seus dados para cadastro</h4>
                         <v-form>
@@ -77,14 +77,14 @@
                             name="Name"
                             prepend-icon="person"
                             type="text"
-                            color="teal accent-3"
+                            color="blue accent-3"
                           />
                           <v-text-field
                             label="Email"
                             name="Email"
                             prepend-icon="email"
                             type="text"
-                            color="teal accent-3"
+                            color="blue accent-3"
                           />
 
                           <v-text-field
@@ -93,13 +93,14 @@
                             name="password"
                             prepend-icon="lock"
                             type="password"
-                            color="teal accent-3"
+                            color="blue accent-3"
                           />
                         </v-form>
                       </v-card-text>
                       <div class="text-center mt-n5">
-                        <v-btn rounded color="teal accent-3" dark>INSCREVER-SE</v-btn>
+                        <v-btn rounded color="blue accent-3" dark>INSCREVER-SE</v-btn>
                       </div>
+                      <br>
                     </v-col>
                   </v-row>
                 </v-window-item>
