@@ -95,10 +95,21 @@
                             type="password"
                             color="blue accent-3"
                           />
+
+                           <v-text-field
+                            id="confirmpassword"
+                            label="Confirme Sua Senha"
+                            name="confirmpassword"
+                            prepend-icon="lock"
+                            type="confirmpassword"
+                            color="blue accent-3"
+                          />
                         </v-form>
                       </v-card-text>
                       <div class="text-center mt-n5">
                         <v-btn rounded color="blue accent-3" dark>INSCREVER-SE</v-btn>
+                        <br><br>
+                        <v-btn rounded color="blue accent-3" dark>CANCELAR</v-btn>
                       </div>
                       <br>
                     </v-col>
