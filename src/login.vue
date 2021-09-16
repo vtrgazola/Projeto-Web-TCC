@@ -32,7 +32,9 @@
                             color="blue accent-3"
                           />
                         </v-form>
-                        <h3 class="text-center mt-4">Esqueceu sua senha ?</h3>
+                        <div class="text-center mt-4">
+                        <a href="esqueceu">Esqueceu sua senha ?</a>
+                        </div>
                       </v-card-text>
                       <div class="text-center mt-3">
                         <v-btn rounded color="blue accent-3" dark>ENTRAR</v-btn>
