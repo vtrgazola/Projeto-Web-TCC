@@ -58,3 +58,9 @@
 </div>
   
 </template>
+
+<script>
+    export default {
+      name:"ContatosRecuperarSenha"
+    }
+</script>
