@@ -56,7 +56,7 @@
                         <h2
                             class="text-center mt-3"
                         >
-                          As instruções foi enviada para o seu e-mail com sucesso!
+                          As instruções foram enviadas para o seu e-mail com sucesso!
                           Por favor verifique sua caixa de entrada.
                         </h2>
                         <div class="text-center mt-6">
