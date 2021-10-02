@@ -4,7 +4,7 @@
       <v-container class="fill-height" fluid>
         <v-row align="center" justify="center">
           <v-col cols="12" sm="8" md="8">
-            <v-card class="elevation-12">
+            <v-card class="elevation-12" style="margin-top: -30%">
               <v-window v-model="step">
                 <v-window-item :value="1">
                   <v-row>
@@ -32,7 +32,10 @@
                             color="light-blue accent-4"
                           />
                         </v-form>
-                        <h3 class="text-center mt-4">Esqueceu sua senha ?</h3>
+                        <div class="text-center mt-4">
+                          <v-btn @click="redirect('/recuperar')">Esqueceu sua senha ?</v-btn>
+                        </div>
+
                       </v-card-text>
                       <div class="text-center mt-3">
                         <v-btn rounded color="light-blue accent-4" dark>ENTRAR</v-btn>
@@ -97,7 +100,7 @@
                           />
                         </v-form>
                       </v-card-text>
-                      <div class="text-center mt-n5">
+                      <div class="text-center mt-n5 mb-3">
                         <v-btn rounded color="light-blue accent-4" dark>INSCREVER-SE</v-btn>
                       </div>
                     </v-col>
@@ -120,6 +123,11 @@ export default {
   }),
   props: {
     source: String
+  },
+  methods: {
+    redirect(route) {
+      this.$router.push(route);
+    },
   }
 };
 </script>
