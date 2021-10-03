@@ -3,7 +3,7 @@
     <v-content>
       <v-container class="fill-height" fluid>
         <v-row align="center" justify="center">
-          <v-col cols="6">
+          <v-col cols="8">
             <v-card class="elevation-12" style="margin-top: -30%">
               <v-window v-model="step">
                 <v-window-item :value="1">
