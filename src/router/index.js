@@ -40,6 +40,15 @@ const routes = [
                 name: "",
                 component: () => import("../components/RecuperarSenha")
             },
+            {
+                path: "/cadastro/tiposervico",
+                meta: {
+                    name: "",
+                    requiresAuth: true
+                },
+                name: "",
+                component: () => import("../components/CadastroTipoServico")
+            },
         ]
     }
 ]
