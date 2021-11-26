@@ -47,7 +47,43 @@ const routes = [
                     requiresAuth: true
                 },
                 name: "",
-                component: () => import("../components/CadastroTipoServico")
+                component: () => import("../components/CadastroTipoServicos")
+            },
+            {
+                path: "/cadastro/prestadorservico",
+                meta: {
+                    name: "",
+                    requiresAuth: true
+                },
+                name: "",
+                component: () => import("../components/CadastroPrestadorServico")
+            },
+            {
+                path: "/cadastro/statussolicitacao",
+                meta: {
+                    name: "",
+                    requiresAuth: true
+                },
+                name: "",
+                component: () => import("../components/CadastroStatusSolicitacao")
+            },
+            {
+                path: "/cadastro/cadastroservico",
+                meta: {
+                    name: "",
+                    requiresAuth: true
+                },
+                name: "",
+                component: () => import("../components/CadastroServicos")
+            },
+            {
+                path: "/cadastro/cadastrovinculo",
+                meta: {
+                    name: "",
+                    requiresAuth: true
+                },
+                name: "",
+                component: () => import("../components/CadastroVinculo")
             },
         ]
     }
