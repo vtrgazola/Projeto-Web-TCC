@@ -57,7 +57,7 @@
                 </v-window-item>
                 <v-window-item :value="2">
                   <v-row class="fill-height">
-                    <v-col cols="12" md="4" class="light-blue accent-4">
+                    <v-col cols="12" md="4" class="grey accent-4">
                       <v-card-text class="white--text mt-12">
                         <h1 class="text-center display-1">Bem vindo!</h1>
                         <h5
@@ -71,7 +71,7 @@
 
                     <v-col cols="12" md="8">
                       <v-card-text class="mt-12">
-                        <h1 class="text-center display-2 light-blue--text text-accent-4">Criar Conta</h1>
+                        <h1 class="text-center display-2 grey--text text-accent-4">Criar Conta</h1>
                         
                         <h4 class="text-center mt-4">Informe seus dados para cadastro</h4>
                         <v-form>
@@ -80,14 +80,14 @@
                             name="Name"
                             prepend-icon="person"
                             type="text"
-                            color="light-blue accent-4"
+                            color="black accent-4"
                           />
                           <v-text-field
                             label="Email"
                             name="Email"
                             prepend-icon="email"
                             type="text"
-                            color="light-blue accent-4"
+                            color="black accent-4"
                           />
 
                           <v-text-field
@@ -96,12 +96,12 @@
                             name="password"
                             prepend-icon="lock"
                             type="password"
-                            color="light-blue accent-4"
+                            color="black accent-4"
                           />
                         </v-form>
                       </v-card-text>
                       <div class="text-center mt-n5 mb-3">
-                        <v-btn rounded color="light-blue accent-4" dark>INSCREVER-SE</v-btn>
+                        <v-btn rounded color="black accent-4" dark>INSCREVER-SE</v-btn>
                       </div>
                     </v-col>
                   </v-row>
