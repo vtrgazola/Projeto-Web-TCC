@@ -2,16 +2,12 @@
     <v-container class="pt-15">
         <v-row>
             <v-col lg="6">
-                <h2 class="intro-text">Bem-Vindo ao OperatorX</h2>
-                <p class="description">Esssa é uma mera introdução da nossa página principal</p>
+                <h2 class="intro-text">Bem-Vindo ao Simple Hotel</h2>
+                <p class="description">Software para administração hoteleira.</p>
                 
-                <v-btn color="success" class="white--text mr-10" rounded>Começar agora</v-btn>
-                <v-btn color="indigo" class="white--text" rounded>
-                    <v-icon>mdi-play-circle</v-icon> Olha o vídeo de demonstração
-                </v-btn>
             </v-col>
             <v-col lg="6">
-                <img width="100%" src="./../assets/hero-img.png" alt="">
+                <img width="100%" src="./../assets/hotel.jpg" alt="">
             </v-col>
         </v-row>   
     </v-container>

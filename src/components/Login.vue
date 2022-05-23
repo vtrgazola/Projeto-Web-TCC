@@ -11,7 +11,7 @@
                     <v-col cols="12" md="8">
                       <v-card-text class="mt-12">
                         <h1
-                          class="text-center display-2 light-blue--text text--accent-4"
+                          class="text-center display-2 black--text text--accent-4"
                         >Faça Seu Login</h1><br>
                       
                         <v-form>
@@ -20,7 +20,7 @@
                             name="Email"
                             prepend-icon="email"
                             type="text"
-                            color="light-blue accent-4"
+                            color="black accent-4"
                           />
 
                           <v-text-field
@@ -29,7 +29,7 @@
                             name="password"
                             prepend-icon="lock"
                             type="password"
-                            color="light-blue accent-4"
+                            color="black accent-4"
                           />
                         </v-form>
                         <div class="text-center mt-4">
@@ -38,11 +38,11 @@
 
                       </v-card-text>
                       <div class="text-center mt-3">
-                        <v-btn rounded color="light-blue accent-4" dark>ENTRAR</v-btn>
+                        <v-btn rounded color="grey accent-4" dark>ENTRAR</v-btn>
                       </div>
                       <br>
                     </v-col>
-                    <v-col cols="12" md="4" class="light-blue accent-4">
+                    <v-col cols="12" md="4" class="grey accent-4">
                       <v-card-text class="white--text mt-12">
                         <h1 class="text-center display-1">Olá, Amigo!</h1>
                         <h5

@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-app-bar
-        color="light-blue accent-4"
+        color="black accent-4"
         elevate-on-scroll
         clipped-left app
     >
@@ -12,7 +12,7 @@
           large
           text
       >
-        <strong>OperatorX</strong>
+        <strong>Simple Hotel</strong>
       </v-btn>
       <v-spacer />
       <v-btn
